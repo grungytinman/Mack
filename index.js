@@ -2729,3 +2729,8 @@ $(document).keydown(function(e){
     }
  
 });
+
+$(document).bind("contextmenu",function(e) { 
+	e.preventDefault();
+ 
+});
