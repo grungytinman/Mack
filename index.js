@@ -2720,3 +2720,12 @@ window.onkeydown = function(e) {
         return !(e.keyCode == 32);
     }
 };
+
+$(document).keydown(function(e){
+    if(e.which === 123){
+ 
+       return false;
+ 
+    }
+ 
+});
