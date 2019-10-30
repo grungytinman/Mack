@@ -87,18 +87,6 @@ gtag('config', 'UA-150606987-1', { 'optimize_id': 'GTM-KB7GRGQ'});
 }
 </style>
 
-<script>
-	$(document).keydown(function(e){
-    if(e.which === 123){
- 
-       return false;
- 
-    }
- 
-});
-
-$(document).bind("contextmenu",function(e) { 
-	e.preventDefault();
- 
-});
-</script>
+<script language="text/javascript">
+document.onmousedown=disableclick;status="Right Click Disabled";function disableclick(event){ if(event.button==2) { alert(status); return false; }}
+.</script>
